@@ -2,45 +2,52 @@ particlesJS(
   {
     "particles": {
       "number": {
-          "value": 3,
-          "density": {
-              "enable": true,
-              "value_area": 800
-          }
+        "value": 5,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
       },
       "color": {
-          "value": "#ffffff"
+        "value": "#ffffff"
       },
       "shape": {
-          "type": 'image', 
-          "image": {
-              "src": '../imagenes/pepinoverde.png', 
-              "width": 120, 
-              "height": 120 
-          }
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
       },
       "opacity": {
-          "value": 1,
-          "random": false,
-          "anim": {
-              "enable": false,
-              "speed": 0.1,
-              "opacity_min": 0.1,
-              "sync": false
-          }
+        "value": 0.5,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
       },
       "size": {
-          "value": 20, 
-          "random": true,
-          "anim": {
-              "enable": false,
-              "speed": 10,
-              "size_min": 0.1,
-              "sync": false
-          }
+        "value": 3,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
       },
       "line_linked": {
-        "enable": false,
+        "enable": true,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -48,12 +55,12 @@ particlesJS(
       },
       "move": {
         "enable": true,
-        "speed": 0.6,  
+        "speed": 6,
         "direction": "none",
         "random": false,
         "straight": false,
-        "out_mode": "bounce", 
-        "bounce": true,
+        "out_mode": "out",
+        "bounce": false,
         "attract": {
           "enable": false,
           "rotateX": 600,
@@ -65,7 +72,7 @@ particlesJS(
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "repulse"
         },
         "onclick": {
@@ -120,7 +127,7 @@ particlesJS("particles-js-2", {
       "shape": {
           "type": 'image', 
           "image": {
-              "src": '../imagenes/pepinoverde.png', 
+              "src": 'pepinoverde.png', 
               "width": 120, 
               "height": 120 
           }
@@ -214,7 +221,7 @@ particlesJS("particles-js-2", {
 particlesJS("particles-js-3", {
   "particles": {
     "number": {
-        "value": 5,
+        "value": 4,
         "density": {
             "enable": true,
             "value_area": 800
@@ -226,7 +233,7 @@ particlesJS("particles-js-3", {
     "shape": {
         "type": 'image', 
         "image": {
-            "src": '../imagenes/gato/huellasr.png', 
+            "src": 'huellasr.png', 
             "width": 160, 
             "height": 160 
         }
